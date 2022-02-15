@@ -24,8 +24,8 @@ export default function PrimarySearchAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          <h4 onClick={() => navigate("")}>Home</h4>
-          <h4 onClick={() => navigate("news")}>News</h4>
+          <h4 onClick={() => navigate("/assesment2")}>Home</h4>
+          <h4 onClick={() => navigate("/assesment2/news")}>News</h4>
         </Toolbar>
       </AppBar>
     </Box>
